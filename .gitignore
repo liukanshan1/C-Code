@@ -1,1 +1,59 @@
 
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+!demo.exe
+*.out
+*.app
+
+
+*.user
+*.vcxproj
+*.filters
+*.sln
+*.ipch
+*.db-shm
+*.db-wal
+*.opendb
+*.json
+*.db
+*.ink
+
+/.vs/
+/C++\ 项目/.vs/
+/C++\ 项目/C++\ Project/.vs/
+/C++\ 项目/C++\ Project/Debug/
+/C++\ 项目/C++\ Project/x64/
+/C++大作业/1/.vs/
+/C++大作业/1/x64/
+/QT/build*/
+/算法/.vs/
+/算法/x64/
+
