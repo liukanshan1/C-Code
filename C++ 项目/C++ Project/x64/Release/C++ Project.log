@@ -1,44 +1,51 @@
-﻿  21221-060201-C05-W1401.附件 w14-c5-s1-基准程序.cpp
-  Examples.cpp
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\Examples_myAreas.h(4,16): error C2062: 意外的类型“double”
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\Examples_myAreas.h(5,2): error C2143: 语法错误: 缺少“;”(在“{”的前面)
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\Examples_myAreas.h(5,2): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\Examples.cpp(25,19): error C2061: 语法错误: 标识符“in”
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\Examples.cpp(51,7): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\Examples.cpp(51,1): error C2373: “pf1”: 重定义；不同的类型修饰符
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\Examples.cpp(50): message : 参见“pf1”的声明
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\Examples.cpp(52,7): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\Examples.cpp(52,1): error C2373: “pf2”: 重定义；不同的类型修饰符
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\Examples.cpp(50): message : 参见“pf2”的声明
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\Examples.cpp(54,5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\Examples.cpp(54,3): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-  Examples_myCircle.cpp
-  G2.cpp
+﻿  乘法算法.cpp
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\C++ Project\乘法算法.cpp(39,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\C++ Project\乘法算法.cpp(39,44): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\C++ Project\乘法算法.cpp(140,3): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\C++ Project\乘法算法.cpp(241,3): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\C++ Project\乘法算法.cpp(275,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\C++ Project\乘法算法.cpp(276,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\C++ Project\乘法算法.cpp(303,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\C++ Project\乘法算法.cpp(341,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\C++ Project\乘法算法.cpp(349,19): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\C++ Project\乘法算法.cpp(356,20): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\C++ Project\乘法算法.cpp(382,19): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\C++ Project\乘法算法.cpp(404,8): warning C4101: “n2”: 未引用的局部变量
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\C++ Project\乘法算法.cpp(403,8): warning C4101: “n1”: 未引用的局部变量
   二进制转换.cpp
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\二进制转换.cpp(4,1): warning C4326: “main”的返回类型应为“int”而非“void”
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\C++ Project\二进制转换.cpp(4,1): warning C4326: “main”的返回类型应为“int”而非“void”
   倒序输出.cpp
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\倒序输出.cpp(12,32): warning C4267: “初始化”: 从“size_t”转换到“long”，可能丢失数据
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\C++ Project\倒序输出.cpp(12,32): warning C4267: “初始化”: 从“size_t”转换到“long”，可能丢失数据
   双向链表.cpp
   因数分解.cpp
   字符串操作.cpp
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\字符串操作.cpp(78,5): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\C++ Project\字符串操作.cpp(78,5): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   打印正方形.cpp
-  冒泡排序.cpp
   int与string相互转换.cpp
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\int与string相互转换.cpp(20,5): error C2084: 函数“int main(void)”已有主体
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\int与string相互转换.cpp(4): message : 参见“main”的前一个定义
   不定二维数组.cpp
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\不定二维数组.cpp : fatal error C1041: 无法打开程序数据库“C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\x64\Release\vc143.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
   小数点和平方.cpp
   字符串插入.cpp
   源.cpp
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\源.cpp(12,3): error C2065: “balabalabala”: 未声明的标识符
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\源.cpp(15,7): error C2065: “balabla”: 未声明的标识符
   查找替换字符串.cpp
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\查找替换字符串.cpp(15,22): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\C++ Project\查找替换字符串.cpp(15,22): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
   输出例子.cpp
   输出链表字符.cpp
-C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\C++ Project\输出链表字符.cpp(45,17): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\C++ Project\输出链表字符.cpp(45,17): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
   进制转换.cpp
-  正在编译...
-  马踏棋盘.cpp
+二进制转换.obj : error LNK2005: main 已经在 乘法算法.obj 中定义
+倒序输出.obj : error LNK2005: main 已经在 乘法算法.obj 中定义
+双向链表.obj : error LNK2005: main 已经在 乘法算法.obj 中定义
+因数分解.obj : error LNK2005: main 已经在 乘法算法.obj 中定义
+字符串操作.obj : error LNK2005: main 已经在 乘法算法.obj 中定义
+打印正方形.obj : error LNK2005: main 已经在 乘法算法.obj 中定义
+int与string相互转换.obj : error LNK2005: main 已经在 乘法算法.obj 中定义
+不定二维数组.obj : error LNK2005: main 已经在 乘法算法.obj 中定义
+小数点和平方.obj : error LNK2005: main 已经在 乘法算法.obj 中定义
+字符串插入.obj : error LNK2005: main 已经在 乘法算法.obj 中定义
+查找替换字符串.obj : error LNK2005: main 已经在 乘法算法.obj 中定义
+输出例子.obj : error LNK2005: main 已经在 乘法算法.obj 中定义
+输出链表字符.obj : error LNK2005: main 已经在 乘法算法.obj 中定义
+输出链表字符.obj : error LNK2005: "void __cdecl display(struct Num *)" (?display@@YAXPEAUNum@@@Z) 已经在 双向链表.obj 中定义
+进制转换.obj : error LNK2005: main 已经在 乘法算法.obj 中定义
+LINK : warning LNK4067: 不明确的入口点；选定“mainCRTStartup”
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\x64\Release\C++ Project.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

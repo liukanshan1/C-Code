@@ -54,13 +54,16 @@
     <ClCompile Include="字符串插入.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="源.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="查找替换字符串.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="乘法算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="函数数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,2 +1,4 @@
-﻿  int与string相互转换.cpp
-  C++ Project.vcxproj -> C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Study\x64\Debug\C++ Project.exe
+﻿  源.cpp
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\C++ Project\源.cpp(8,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\C++ Project\源.cpp(9,41): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  C++ Project.vcxproj -> C:\Users\L-kanshan\OneDrive - arocyx\文档\GitHub\C-Code\C++ 项目\x64\Debug\C++ Project.exe

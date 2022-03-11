@@ -9,7 +9,7 @@ int main()
 		{
 			cout << "*" << endl << endl;
 		}
-		else
+		else //霞編込込込込込込込込込込込込込込込込込込込込込込込込込込込込賜賜賜賜賜賜賜賜
 		{
 			for (int i = 0; i < a; i++)
 			{

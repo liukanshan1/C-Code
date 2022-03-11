@@ -38,3 +38,16 @@ int main()
     return 0;
 
 }
+//µ¹Ğò²éÕÒ×Ö·û´®
+{
+    string s;
+    getline(cin, s);
+    int pre = s.length(), now;
+    while ((now = s.rfind(' ', s.length() - 1)) != string::npos) //×¢Òâ s.length() - 1
+    {
+        cout << s.substr(now + 1, pre - now - 1) << " ";
+        s.erase(now, 1);
+        pre = now;
+    }
+    cout << s.substr(0, pre) << endl;
+}
