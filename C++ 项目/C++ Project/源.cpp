@@ -1,35 +1,31 @@
-﻿#include<iostream>
-#include<cstring>
-#include<iomanip>
-#include<string.h>
-#include<string>
+﻿#include <iostream>
+#include <string>
 using namespace std;
-class Base
+
+
+//定义类模板T_Counter，实现基本类型数据的 + 、 - 、 * 、 = 、 >> 、 << 
+//运算；类模板T_Vector，实现向量运算；类模板T_Matrix，实现矩阵运算。
+template<class T>
+class T_Counter
 {
-	friend ostream& operator<< (ostream&, const Base&);
 public:
-	int x;
-	Base()
-	{
-		x = 50;
-
-	}
-
-
+	T_Counter();
+	~T_Counter();
 
 };
-ostream& operator<<(ostream& os, const Base& a)
+
+template<class T>
+T_Counter<T>::T_Counter()
 {
-	os << '[';
-	os << a.x;
-	os << "]";
-	return os;
 }
+
+template<class T>
+T_Counter<T>::~T_Counter()
+{
+}
+
+
 int main()
 {
-
-	Base a;
-	cout << a << endl;;
-	float g = 5 / 1000.0;
-	cout << g << endl;
+	
 }
