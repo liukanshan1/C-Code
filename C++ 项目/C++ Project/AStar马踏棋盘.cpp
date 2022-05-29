@@ -75,11 +75,11 @@ dot operator+(dot d1, dot d2) {
 
 int heuristic(dot d) {
     return (abs(d.x - target.x) + abs(d.y - target.y)) / 3;
-    //return 0; 
+    //return 0;
 }
 
 int search(priority_queue<pair<int, dot>, vector<pair<int, dot>>, compare>& que, vector<vector<bool>> reached) {
-    while (que.top().first <= heuristic(start)*2 ) {
+    while (!que.empty()&&que.top().first <= heuristic(start) * 2) {
         pair<int, dot> current = que.top();
         que.pop();
         if (current.second == target) {
@@ -91,7 +91,6 @@ int search(priority_queue<pair<int, dot>, vector<pair<int, dot>>, compare>& que,
                 reached[d.x][d.y] = true;
             }
         }
-        return search(que, reached);
     }
     return 0;
 }
