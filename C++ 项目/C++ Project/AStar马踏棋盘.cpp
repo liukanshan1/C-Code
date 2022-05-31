@@ -74,7 +74,13 @@ dot operator+(dot d1, dot d2) {
 }
 
 int heuristic(dot d) {
-    return (abs(d.x - target.x) + abs(d.y - target.y)) / 3;
+    int x = abs(d.x - target.x);
+    int y = abs(d.y - target.y);
+    //if (abs(max(x, y) - 2 * min(x, y)) != 0)
+    //{
+    //    return (x + y) / 3 + 1;
+    //}
+    return (x + y) / 3;
     //return 0;
 }
 
